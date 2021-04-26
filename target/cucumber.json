@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6616776500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TakeScreenshot.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a online customer, i need to place a order and verify order history",
+        "description": "",
+        "id": "to-place-a-order-for-automation-practise-in-retailer-online-portal;as-a-online-customer--i-need-to-place-a-order-and-verify-order-history",
+        "after": [
+          {
+            "result": {
+              "duration": 478300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TakeScreenshot.afterTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2825581600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on login page",
+            "match": {
+              "location": "login_step_def.launchBroswer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4824007100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters email address and password",
+            "match": {
+              "location": "login_step_def.logindetails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1333983600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on First name on right top corner",
+            "match": {
+              "location": "login_step_def.clickPersonalDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2034160400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Changed personal information of first name",
+            "match": {
+              "location": "login_step_def.Details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "To place a order for Automation practise in Retailer Online portal",
+    "description": "",
+    "id": "to-place-a-order-for-automation-practise-in-retailer-online-portal",
+    "keyword": "Feature",
+    "uri": "src/test/features/order.feature",
+    "tags": []
+  }
+]
